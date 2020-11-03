@@ -1,6 +1,8 @@
+**Note**: This was originally forked from: https://github.com/fightcamp/fightcamp-take-home-challenge-ios
+
 ## FightCamp take home (iOS) 🥊
 
-Hey! Congratulations on making it to the next step in the interview process. We look forward to having you potentially join the FightCamp family!
+Hey! Congratulations on making it to the next step in the interview process. We look forward to having you potentially join NuraLogix!
 
 ## Expectations
 
@@ -36,7 +38,6 @@ Every package (3/3) are displayed on the screen and embedded into a vertical scr
 - Swift (no Obj-c)
 - UIKit (not ready to SwiftUI yet!)
 - No storyboard or nibs - everything programmatically (Autolayout or frame)
-- We recommend MVVM achitecture (even considering the small size of the app)
 - Light & dark mode compatible
 - No third party libraries
 - iPad layout isn't supported
@@ -56,14 +57,6 @@ Create a small README with the following items:
 * Any other information you believe is necessary for us to know about the issue/solution.
 
 Once completed, email us a Zipped version of your Xcode project with all source files.
-
-## Time allotment 
-
-It should take aproximately 2-3 hours to complete **Goal level 1**. 
-
-An additional work hour can be expected in order to complete **Goal level 2 & 3**.
-
-A maximum of 24 hours is given to the candidate to submit the zipped project. 
 
 ## Evaluation
 
