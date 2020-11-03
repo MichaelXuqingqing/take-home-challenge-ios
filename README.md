@@ -40,7 +40,6 @@ Every package (3/3) are displayed on the screen and embedded into a vertical scr
 - No storyboard or nibs - everything programmatically (Autolayout or frame)
 - Light & dark mode compatible
 - No third party libraries
-- iPad layout isn't supported
 - Support iPhones with a screen equal or greater to 4.7in
 - The UI isn't hardcoded; `packages.json` is used to populate the UI
 
