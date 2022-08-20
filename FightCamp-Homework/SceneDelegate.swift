@@ -22,7 +22,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = (scene as? UIWindowScene) else { return }
 
         window = .init(windowScene: windowScene)
-        window?.rootViewController = nil /* instantiate the view controller here */
+        //Use a simple viewController to display the contents of the page
+        window?.rootViewController = MSFightCampViewController()
         window?.makeKeyAndVisible()
     }
 
