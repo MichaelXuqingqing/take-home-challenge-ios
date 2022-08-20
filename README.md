@@ -1,86 +1,31 @@
-**Note**: This was originally forked from: https://github.com/fightcamp/fightcamp-take-home-challenge-ios
+# Summary1
 
-## FightCamp take home (iOS) 🥊
+## All have been completed according to the homework requirements
 
-Hey! Congratulations on making it to the next step in the interview process. We look forward to having you potentially join NuraLogix!
+👉 Must compile (No Errors or warnings)
+👉 Swift (No Objective-C)
+👉 Layout is done programmatically (No storyboards or nibs)
+👉 Use MVVM architecture
+👉 Light & dark mode compatible
+👉 No third party libraries
+👉 Support all iPhones with a screen size greater than or equal to 4.7 inches (Support for iPad is not required)
+👉 The UI should not be hardcoded (Use packages.json to simulate an API call and populate the UI)
 
-## Expectations
+## Small summary of the reasoning behind the technical decisions
 
-Replicate the FightCamp package selection (webpage) into a native iOS App using Swift and UIKit. See the image below as a reference:
+* A simple TableView is used as a container to show packages, in which collectionView is used in the small thumbnail area to realize horizontal sliding, and the page structure is concise and clear.
+* The UI and Model are completely separated. The data needed on the View must be provided by the viewModel. The View does not hold the Model data directly.
+* Use the system serialization method directly to convert the local Json data into a Model object for subsequent view padding. For simplicity, the method is directly encapsulated in the JsonTool class. Use more sophisticated encapsulation for formal projects or use a full-fledged tripartite library such as SwiftyJson.
+* The network image download function uses the contentsOf method of Data class, which downloads the original Data to the local through the URL and converts it into image. It uses asynchronous download and adds the image to the cache. When the image is reused later, it can be directly read from the local cache. Use more sophisticated packaging for formal projects or use a full-fledged three-party library such as Kingfisher.
 
-![](img/mockups-01.png)
+## Other information
 
-![](img/package-animation-01.gif)
+* The image resource size is too large, which will take up too much memory and affect the user experience. The official project recommends reducing the image size scale and using different sizes for the main thumbnail and small thumbnail to optimize memory footprint.
+* The number of small thumbnails is not specified, such as how to display when the number is less than 4 or greater than 4, which affects the dynamic calculation of the size of the small thumbnail. Of course, there is no ambiguity about the fixed use of four small thumbnails in this project
 
-## Goals 
+## Thanks
 
-There are 3 packages available:
-
-- FightCamp Personal
-- FightCamp Tribe
-- FightCamp Connect
-
-#### Goal level 1
-Only one package (1/3) is displayed on the screen. 
-
-In this case, we should be able to easily change the code so we can test another package.
-
-#### Goal level 2
-
-Have the thumbnails section interactive; possibility to change the preview image by tapping on one of the 4 thumbnails.
-
-#### Goal level 3
-Every package (3/3) are displayed on the screen and embedded into a vertical scroll view (UIScrollView, UITableView or UICollectionView). It's possible to look at each of 3 packages by scrolling up/down.
-
-## Requirements
-
-- Must compile
-- Swift (no Obj-c)
-- UIKit (not ready to SwiftUI yet!)
-- No storyboard or nibs - everything programmatically (Autolayout or frame)
-- Light & dark mode compatible
-- No third party libraries
-- Support iPhones with a screen equal or greater to 4.7in
-- The UI isn't hardcoded; `packages.json` is used to populate the UI
-
-## Project Submission
-
-Fork this repository to get access to the configured XCode project and the helper files.
-
-Try to accomplish as many goal levels as you can.
-
-Create a small README with the following items:
-
-* Small summary of the reasoning behind your technical decisions.
-* What is missing and why. (if applicable)
-* Any other information you believe is necessary for us to know about the issue/solution.
-
-Once completed, email us a Zipped version of your Xcode project with all source files.
-
-## Evaluation
-
-| Criteria | |
-|:--|:--|
-Readability of the code (easy to read, easy to navigate, well structured)  | ++++
-UI is performant and similar to the given example | ++++
-Respect of the architecture (e.g. UI separation from the model) | +++
-Simplicity of the solutions used | +++
-Use of the Swift functionalities | +++
-Formatting of the code and code comments | ++
-
-## Helper Files
-
-| Files    | Description    |
-|:-----|:------|
-|`Colors.swift`| Contains all needed UIColor
-|`Fonts.swift` | Contains all UIFonts needed to style the labels
-| `Layout.swift` | Contains all CGFloat layout dimensions
-| `packages.json` | Contains the FightCamp packages metadata (json format)
-
-## Layout reference
-
-Refer to this image below to build the UI
-
-![](./img/specs-01.png)
-
+* Thank you very much for providing me with this opportunity. I may not be the best, but I will be very serious and active to complete everything, and always maintain a high degree of enthusiasm for work.
+* I really hope that I can join the big family like NuraLogix and make my own contribution to the application of artificial intelligence technology.
+* Looking forward to your feedback, thanks again! 😊
 
