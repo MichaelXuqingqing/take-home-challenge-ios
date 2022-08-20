@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8496D13928AE4363005D3EBD /* MSFightCampViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496D13828AE4363005D3EBD /* MSFightCampViewController.swift */; };
+		8496D13B28AE486B005D3EBD /* MSFightCampViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496D13A28AE486B005D3EBD /* MSFightCampViewModel.swift */; };
+		8496D13D28AE4CD5005D3EBD /* MSFightCampTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496D13C28AE4CD5005D3EBD /* MSFightCampTableViewCell.swift */; };
+		8496D13F28AE73B2005D3EBD /* MSSubThumbnailCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496D13E28AE73B2005D3EBD /* MSSubThumbnailCollectionCell.swift */; };
+		8496D14128AE7ED3005D3EBD /* ExtensionLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496D14028AE7ED3005D3EBD /* ExtensionLabel.swift */; };
+		8496D14328AE8B50005D3EBD /* ExtensionImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496D14228AE8B50005D3EBD /* ExtensionImageView.swift */; };
+		8496D16728AEE0F6005D3EBD /* ImageCacheCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496D16628AEE0F6005D3EBD /* ImageCacheCenter.swift */; };
+		84AD5A1328AF6EA5001334C0 /* ExtensionString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AD5A1228AF6EA5001334C0 /* ExtensionString.swift */; };
+		84AD5A1528AF788A001334C0 /* MSFightCampModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AD5A1428AF788A001334C0 /* MSFightCampModel.swift */; };
+		84AD5A1728AF7F30001334C0 /* JsonTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AD5A1628AF7F30001334C0 /* JsonTool.swift */; };
+		84FEFA7128AFAE750000A34D /* MSBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FEFA7028AFAE750000A34D /* MSBaseViewController.swift */; };
 		C1BD977A249AC04D0044B734 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BD9779249AC04D0044B734 /* AppDelegate.swift */; };
 		C1BD977C249AC04D0044B734 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BD977B249AC04D0044B734 /* SceneDelegate.swift */; };
 		C1BD9783249AC04E0044B734 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1BD9782249AC04E0044B734 /* Assets.xcassets */; };
@@ -20,6 +31,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8496D13828AE4363005D3EBD /* MSFightCampViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSFightCampViewController.swift; sourceTree = "<group>"; };
+		8496D13A28AE486B005D3EBD /* MSFightCampViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSFightCampViewModel.swift; sourceTree = "<group>"; };
+		8496D13C28AE4CD5005D3EBD /* MSFightCampTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSFightCampTableViewCell.swift; sourceTree = "<group>"; };
+		8496D13E28AE73B2005D3EBD /* MSSubThumbnailCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSSubThumbnailCollectionCell.swift; sourceTree = "<group>"; };
+		8496D14028AE7ED3005D3EBD /* ExtensionLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionLabel.swift; sourceTree = "<group>"; };
+		8496D14228AE8B50005D3EBD /* ExtensionImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionImageView.swift; sourceTree = "<group>"; };
+		8496D16628AEE0F6005D3EBD /* ImageCacheCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCacheCenter.swift; sourceTree = "<group>"; };
+		84AD5A1228AF6EA5001334C0 /* ExtensionString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionString.swift; sourceTree = "<group>"; };
+		84AD5A1428AF788A001334C0 /* MSFightCampModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSFightCampModel.swift; sourceTree = "<group>"; };
+		84AD5A1628AF7F30001334C0 /* JsonTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonTool.swift; sourceTree = "<group>"; };
+		84FEFA7028AFAE750000A34D /* MSBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSBaseViewController.swift; sourceTree = "<group>"; };
 		C1BD9776249AC04D0044B734 /* FC-Homework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FC-Homework.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1BD9779249AC04D0044B734 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1BD977B249AC04D0044B734 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +67,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		84FEFA7228AFBAFD0000A34D /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				8496D16628AEE0F6005D3EBD /* ImageCacheCenter.swift */,
+				84AD5A1628AF7F30001334C0 /* JsonTool.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		84FEFA7328AFBB100000A34D /* BaseExtension */ = {
+			isa = PBXGroup;
+			children = (
+				8496D14028AE7ED3005D3EBD /* ExtensionLabel.swift */,
+				84AD5A1228AF6EA5001334C0 /* ExtensionString.swift */,
+				8496D14228AE8B50005D3EBD /* ExtensionImageView.swift */,
+			);
+			path = BaseExtension;
+			sourceTree = "<group>";
+		};
+		84FEFA7428AFBB310000A34D /* FightCampList */ = {
+			isa = PBXGroup;
+			children = (
+				8496D13828AE4363005D3EBD /* MSFightCampViewController.swift */,
+				8496D13C28AE4CD5005D3EBD /* MSFightCampTableViewCell.swift */,
+				8496D13E28AE73B2005D3EBD /* MSSubThumbnailCollectionCell.swift */,
+				8496D13A28AE486B005D3EBD /* MSFightCampViewModel.swift */,
+				84AD5A1428AF788A001334C0 /* MSFightCampModel.swift */,
+			);
+			path = FightCampList;
+			sourceTree = "<group>";
+		};
 		C1BD976D249AC04D0044B734 = {
 			isa = PBXGroup;
 			children = (
@@ -66,9 +119,13 @@
 			children = (
 				C1FD02AB249B23E10029487C /* Helpers */,
 				C1BD979A249AFF0C0044B734 /* Assets */,
-				C1BD9779249AC04D0044B734 /* AppDelegate.swift */,
 				C1BD9792249AC3620044B734 /* packages.json */,
+				C1BD9779249AC04D0044B734 /* AppDelegate.swift */,
 				C1BD977B249AC04D0044B734 /* SceneDelegate.swift */,
+				84FEFA7028AFAE750000A34D /* MSBaseViewController.swift */,
+				84FEFA7428AFBB310000A34D /* FightCampList */,
+				84FEFA7328AFBB100000A34D /* BaseExtension */,
+				84FEFA7228AFBAFD0000A34D /* Common */,
 				C1BD9787249AC04E0044B734 /* Info.plist */,
 				C1BD9782249AC04E0044B734 /* Assets.xcassets */,
 			);
@@ -122,7 +179,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1150;
-				LastUpgradeCheck = 1150;
+				LastUpgradeCheck = 1320;
 				ORGANIZATIONNAME = "Alexandre Marcotte";
 				TargetAttributes = {
 					C1BD9775249AC04D0044B734 = {
@@ -169,10 +226,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1BD9791249AC0810044B734 /* Fonts.swift in Sources */,
+				8496D14328AE8B50005D3EBD /* ExtensionImageView.swift in Sources */,
 				C1BD978F249AC0790044B734 /* Colors.swift in Sources */,
+				8496D13F28AE73B2005D3EBD /* MSSubThumbnailCollectionCell.swift in Sources */,
+				8496D14128AE7ED3005D3EBD /* ExtensionLabel.swift in Sources */,
+				84AD5A1328AF6EA5001334C0 /* ExtensionString.swift in Sources */,
+				8496D16728AEE0F6005D3EBD /* ImageCacheCenter.swift in Sources */,
+				8496D13B28AE486B005D3EBD /* MSFightCampViewModel.swift in Sources */,
 				C1FD02AD249B23F30029487C /* Layout.swift in Sources */,
+				84AD5A1728AF7F30001334C0 /* JsonTool.swift in Sources */,
 				C1BD977A249AC04D0044B734 /* AppDelegate.swift in Sources */,
+				8496D13928AE4363005D3EBD /* MSFightCampViewController.swift in Sources */,
 				C1BD977C249AC04D0044B734 /* SceneDelegate.swift in Sources */,
+				8496D13D28AE4CD5005D3EBD /* MSFightCampTableViewCell.swift in Sources */,
+				84AD5A1528AF788A001334C0 /* MSFightCampModel.swift in Sources */,
+				84FEFA7128AFAE750000A34D /* MSBaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,6 +273,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -265,6 +334,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -298,14 +368,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = N7DJ322W5H;
+				DEVELOPMENT_TEAM = 6SGG9T846B;
 				INFOPLIST_FILE = "FightCamp-Homework/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.fightcamp.homework;
+				PRODUCT_BUNDLE_IDENTIFIER = com.michael.ss;
 				PRODUCT_NAME = "FC-Homework";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -317,14 +387,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = N7DJ322W5H;
+				DEVELOPMENT_TEAM = 6SGG9T846B;
 				INFOPLIST_FILE = "FightCamp-Homework/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.fightcamp.homework;
+				PRODUCT_BUNDLE_IDENTIFIER = com.michael.ss;
 				PRODUCT_NAME = "FC-Homework";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
